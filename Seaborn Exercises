@@ -479,7 +479,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 52,
+   "execution_count": 53,
    "metadata": {},
    "outputs": [
     {
@@ -493,10 +493,10 @@
     {
      "data": {
       "text/plain": [
-       "<seaborn.axisgrid.FacetGrid at 0x1a26c4a278>"
+       "<seaborn.axisgrid.FacetGrid at 0x1a26e0e780>"
       ]
      },
-     "execution_count": 52,
+     "execution_count": 53,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -513,7 +513,7 @@
    ],
    "source": [
     "g = sns.FacetGrid(data=titanic,col='sex')\n",
-    "g.map(sns.distplot,'age', )"
+    "g.map(sns.distplot,'age')"
    ]
   },
   {
